@@ -1,0 +1,53 @@
+.more-button {
+	display: inline-block;
+	padding: 0.3em 1.2em;
+	margin-bottom: 100px;
+	border-radius: 25px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #ffffff;
+	background: linear-gradient(to right, rgb(78, 187, 171), rgb(104, 199, 69));
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+}
+.more-button:hover {
+	background: linear-gradient(to right, rgb(63, 136, 125), rgb(74, 147, 47));
+	transform: scale(1.2);
+}
+@media all and (max-width: 30em) {
+	 .more-button {
+		display: block;
+		margin: 0.2em auto;
+	}
+}
+
+.bouncy {
+	animation: bouncy 5s infinite linear;
+	position: relative;
+}
+@keyframes bouncy {
+	0% {
+		top: 0em;
+	}
+	40% {
+		top: 0em;
+	}
+	43% {
+		top: -0.9em;
+	}
+	46% {
+		top: 0em;
+	}
+	48% {
+		top: -0.4em;
+	}
+	50% {
+		top: 0em;
+	}
+	100% {
+		top: 0em;
+	}
+}

@@ -1,0 +1,19 @@
+.card-container {
+	max-width: 30vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	transition: transform .25s ease-out;
+}
+
+.card-container:hover {
+	transform: scale(1.08);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
