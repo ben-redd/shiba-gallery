@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shiba-gallery/static/css/main.ca47d22c.chunk.css",
-    "main.js": "/shiba-gallery/static/js/main.1af8aa2f.chunk.js",
-    "main.js.map": "/shiba-gallery/static/js/main.1af8aa2f.chunk.js.map",
+    "main.js": "/shiba-gallery/static/js/main.5c612796.chunk.js",
+    "main.js.map": "/shiba-gallery/static/js/main.5c612796.chunk.js.map",
     "runtime-main.js": "/shiba-gallery/static/js/runtime-main.3665c2b7.js",
     "runtime-main.js.map": "/shiba-gallery/static/js/runtime-main.3665c2b7.js.map",
     "static/js/2.7b121b48.chunk.js": "/shiba-gallery/static/js/2.7b121b48.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3665c2b7.js",
     "static/js/2.7b121b48.chunk.js",
     "static/css/main.ca47d22c.chunk.css",
-    "static/js/main.1af8aa2f.chunk.js"
+    "static/js/main.5c612796.chunk.js"
   ]
 }
