@@ -26,13 +26,20 @@ class App extends React.Component {
       console.log('could not complete request')
     }) 
   }
+
+  handleClick = () => {
+    this.setState((prevState, prevProps) => {
+      return { count: prevState.count + displayNum }
+    })
+  }
+
   render() {
     return (
       <div className="App">
         <h1>Shibas!!!</h1>
         <CardList shibas={this.state.shibas} count={this.state.count} />
         <MoreButton 
-          handleClick = {e => this.setState({count: this.state.count + displayNum})}
+          handleClick = {this.handleClick}
           count = {this.state.count}
           max = {this.state.max}
         />
