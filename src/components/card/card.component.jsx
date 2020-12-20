@@ -1,10 +1,14 @@
 import React from 'react'
 import './card.styles.css'
 
-export const Card = (props) => {
+export const Card = ({ shiba }) => {
+    console.log('card working')
     return (
      <div className='card-container'>
-        <img alt='shiba' src={props.shiba} />
+        <img alt='shiba' src={shiba} />
     </div>
     )
 }
+
+
+
