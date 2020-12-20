@@ -5,8 +5,6 @@ import { Card } from '../card/card.component'
 import './card-list.styles.css';
 
 export const CardList = ({count, shibas}) => {
-    console.log(`count ${count}`)
-    console.log(shibas)
     let content = [];
     for(let i = 0; i < count; i++) {
         content.push(shibas[i])
